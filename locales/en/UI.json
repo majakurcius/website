@@ -1,9 +1,8 @@
 {
   "metadata": {
     "title": "Kyma",
-    "shortDescription": "Cloud-native application development framework",
-    "description":
-      "Kyma is an open source, cloud-native application development framework. It provides the last mile capabilities that a developer needs to build a cloud-native application"
+    "shortDescription": "An easy way to extend enterprise applications on Kubernetes.",
+    "description": "Kyma is an open-source project designed natively on Kubernetes. It allows you to extend enterprise applications in a quick and modern way, using serverless computing or microservice architecture."
   },
   "navigation": {
     "home": "Home",
@@ -23,11 +22,10 @@
     },
     "slack": {
       "name": "Slack",
-      "url":
-        "https://join.slack.com/t/kyma-community/shared_invite/enQtNDAwNzE4Mjk2NDE3LTJhOTlmZjM5YzkwNmEzNmY3ZjE2MTU2OTMxOGE4ZDM0MmU4ZWRkZGJiODgzNmRmMTYxMDYwNjZiMDAwMTA2OWM"
+      "url": "https://join.slack.com/t/kyma-community/shared_invite/enQtNDAwNzE4Mjk2NDE3LTJhOTlmZjM5YzkwNmEzNmY3ZjE2MTU2OTMxOGE4ZDM0MmU4ZWRkZGJiODgzNmRmMTYxMDYwNjZiMDAwMTA2OWM"
     },
     "linkedin": {
-      "name": "LinkedIn",
+      "name": "Linkedin",
       "url":
         "https://www.linkedin.com/company/kyma-project/"
     },
@@ -35,6 +33,9 @@
       "name": "YouTube",
       "url":
         "https://www.youtube.com/channel/UC8Q8bBtYe9gQN-dQ-_L8JvQ"
+    },
+    "sigGroup": {
+      "url": "https://github.com/kyma-project/community/blob/master/sig-and-wg/README.md"
     }
   },
   "cookieBanner": {
@@ -52,7 +53,7 @@
     "backToTop": "Back to top",
     "showNavigation": "Show navigation",
     "hideNavigation": "Hide navigation",
-    "latest": "Latest"
+    "latest": "latest"
   },
   "copyright": "Copyright © 2018 The Kyma project authors.",
   "privacyStatement": "Privacy Statement",
