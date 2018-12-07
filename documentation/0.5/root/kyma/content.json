@@ -6,7 +6,7 @@
   "docs": [
     {
       "order": "001-overview-in-a-nutshell",
-      "title": "In a nutshell",
+      "title": "In a nutshel",
       "type": "Overview",
       "source": "<p>Kyma allows you to connect applications and third-party services in a cloud-native environment. Use it to create extensions for the existing systems, regardless of the language they are written in. Customize extensions with minimum effort and time devoted to learning their configuration details.</p>\n<p>With Kyma in hand, you can focus purely on coding since it ensures the following out-of-the-box functionalities:</p>\n<ul>\n<li>Service-to-service communication and proxying (Istio Service Mesh)</li>\n<li>In-built monitoring, tracing, and logging (Grafana, Prometheus, Jaeger, Logspout, OK Log)</li>\n<li>Secure authentication and authorization (Dex, Service Identity, TLS, Role Based Access Control)</li>\n<li>The catalog of services to choose from (Service Catalog, Service Brokers)</li>\n<li>The development platform to run lightweight functions in a cost-efficient and scalable way (Serverless, Kubeless)</li>\n<li>The endpoint to register Events and APIs of external applications (Application Connector)</li>\n<li>The messaging channel to receive Events, enrich them, and trigger business flows using lambdas or services (Event Bus, NATS)</li>\n<li>CLI supported by the intuitive UI (Console)</li>\n</ul>\n"
     },
