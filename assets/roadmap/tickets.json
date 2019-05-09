@@ -985,7 +985,7 @@
     ],
     "Console / Microfrontends": [
       {
-        "title": "Make sure all views in console use ui-api-layer",
+        "title": "Make sure all views in console use console-backend-service",
         "body": "**Description**\r\n\r\n- Implement missing queries\r\n- Change UI to call the graphql layer\r\n\r\n**Reasons**\r\n\r\n- We agreed https://github.com/kyma-project/community/blob/master/sig-and-wg/sig-core/decisions/dr-007-GraphQL_as_API_facade_for_UI.md that all Console views should use `ui-api-layer` as a backed, for reasons described in the decision.\r\n- Don't use kubernetes-dashboard as dependency to the UI as this is going to be a blocker for https://github.com/kyma-project/kyma/issues/926 as kubernetes is an addon that should be optional",
         "url": "https://github.com/kyma-project/console/issues/202",
         "number": 202,
