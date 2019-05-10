@@ -199,6 +199,41 @@
         }
       },
       {
+        "title": "I18N Support",
+        "body": "An application using luigi-core should be able to be displayed in multiple languages. This requires a standardized way/interface to store selected language information within the luigi core context as well as passing it to the client.\nAdditionally there might be a need of enhancing the node configuration schema so localized display data can be configured for e.g. node labels.",
+        "url": "https://github.com/kyma-project/luigi/issues/396",
+        "number": 396,
+        "labels": [
+          "area/luigi"
+        ],
+        "githubUrl": "https://github.com/kyma-project/luigi/issues/396",
+        "repository": {
+          "name": "luigi",
+          "id": 139590701,
+          "issues": []
+        },
+        "dueDate": "2020-12-31T11:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/luigi/396",
+        "release": {
+          "release_id": "5c0791ef1a6a4c6bf4b314ce",
+          "title": "Future",
+          "description": "Items selected for development but not scheduled yet.",
+          "start_date": "2020-01-01T11:00:00.000Z",
+          "desired_end_date": "2020-12-31T11:00:00.000Z",
+          "created_at": "2018-12-05T08:53:03.286Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Console / Microfrontends",
+          "epicsLabels": [
+            "area/console",
+            "area/luigi"
+          ],
+          "id": "console-microfrontends"
+        }
+      },
+      {
         "title": "Shell enhancements",
         "body": "",
         "url": "https://github.com/kyma-project/luigi/issues/473",
@@ -1001,41 +1036,6 @@
         },
         "dueDate": "2019-05-10T10:00:00.000Z",
         "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/console/202",
-        "release": {
-          "release_id": "5c86318b1aa06e798dcd6782",
-          "title": "1.1",
-          "description": "Release 1.1 - Helsinki",
-          "start_date": "2019-04-06T22:00:00.000Z",
-          "desired_end_date": "2019-05-10T10:00:00.000Z",
-          "created_at": "2019-03-11T09:59:39.887Z",
-          "closed_at": null,
-          "state": "open"
-        },
-        "capability": {
-          "displayName": "Console / Microfrontends",
-          "epicsLabels": [
-            "area/console",
-            "area/luigi"
-          ],
-          "id": "console-microfrontends"
-        }
-      },
-      {
-        "title": "I18N Support",
-        "body": "An application using luigi-core should be able to be displayed in multiple languages. This requires a standardized way/interface to store selected language information within the luigi core context as well as passing it to the client.\nAdditionally there might be a need of enhancing the node configuration schema so localized display data can be configured for e.g. node labels.",
-        "url": "https://github.com/kyma-project/luigi/issues/396",
-        "number": 396,
-        "labels": [
-          "area/luigi"
-        ],
-        "githubUrl": "https://github.com/kyma-project/luigi/issues/396",
-        "repository": {
-          "name": "luigi",
-          "id": 139590701,
-          "issues": []
-        },
-        "dueDate": "2019-05-10T10:00:00.000Z",
-        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/luigi/396",
         "release": {
           "release_id": "5c86318b1aa06e798dcd6782",
           "title": "1.1",
