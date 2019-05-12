@@ -551,22 +551,57 @@
         }
       },
       {
-        "title": "Support for metadata on a source level in HeadlessCMS custom resources",
-        "body": "**Description**\r\n\r\n- Make sure proper support for it is in DocsTopic and ClusterDocsTopic \r\n- Do we need explicit support in AssetStore? \r\n- Proper documentation/tutorial/example\r\n- Support in Kyma Console UI Backend\r\n- Support in the markdown rendering components in Kyma:\r\n  - Agree on contract, what keys can be provided in metadata\r\n  - Document them and support in UI\r\n\r\n**Reasons**\r\n\r\nUsers must be able to specify some additional, custom metadata for a specific source of content. Later, the presentation layer can read this metadata and react properly. For example, it could be:\r\n```\r\nsources:\r\n    - type: markdown\r\n      name: markdown-slack\r\n      mode: single\r\n      url: https://raw.githubusercontent.com/slackapi/slack-api-specs/master/README.md\r\n      metadata: \r\n        disableRelativeLinks: true\r\n        disableAbsoluteLinks: true\r\n        disableHTML: true\r\n```",
-        "url": "https://github.com/kyma-project/kyma/issues/3989",
-        "number": 3989,
+        "title": "Private buckets support in Asset Store and Headless CMS",
+        "body": "**Description**\r\n\r\n- Support private storage in Asset Store\r\n- Support private storage in Asset Store Upload Service\r\n- Support private storage in Headless CMS\r\n- Provide proper documentation/tutorials/diagrams\r\n\r\n**Reasons**\r\n\r\nThere are use cases when you want to use the Asset Store to store files privately. You should be able to store files in a bucket and allow to read it only if the reader is authorized. Some kind of proxy is needed",
+        "url": "https://github.com/kyma-project/kyma/issues/4024",
+        "number": 4024,
         "labels": [
           "area/core-and-supporting",
           "enhancement"
         ],
-        "githubUrl": "https://github.com/kyma-project/kyma/issues/3989",
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/4024",
         "repository": {
           "name": "kyma",
           "id": 139590616,
           "issues": []
         },
         "dueDate": "2020-12-31T11:00:00.000Z",
-        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/3989",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/4024",
+        "release": {
+          "release_id": "5c0791ef1a6a4c6bf4b314ce",
+          "title": "Future",
+          "description": "Items selected for development but not scheduled yet.",
+          "start_date": "2020-01-01T11:00:00.000Z",
+          "desired_end_date": "2020-12-31T11:00:00.000Z",
+          "created_at": "2018-12-05T08:53:03.286Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Core & Supporting",
+          "epicsLabels": [
+            "area/core-and-supporting"
+          ],
+          "id": "core-and-supporting"
+        }
+      },
+      {
+        "title": "Creation of Bucket as part of Asset resource in AssetStore",
+        "body": "**Description**\r\n\r\n- Asset spec should make it possible for a user to specify that he wants a default bucket created for him, so he doesn't have to do it on his own by creating Bucket CR\r\n- Evaluate how such automated bucket creation might look like, to what extent. Maybe only for public buckets as for private the definition would be too complicated?\r\n- Should we define a specific field in a spec or maybe best practice is to use spec.template standard and specify that the user can provide a full Bucket definition?\r\n\r\n**Reasons**\r\n\r\nSometimes you just need to store 1 or 2 assets using an application and creating a bucket separately might be overhead.",
+        "url": "https://github.com/kyma-project/kyma/issues/4026",
+        "number": 4026,
+        "labels": [
+          "area/core-and-supporting",
+          "enhancement"
+        ],
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/4026",
+        "repository": {
+          "name": "kyma",
+          "id": 139590616,
+          "issues": []
+        },
+        "dueDate": "2020-12-31T11:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/4026",
         "release": {
           "release_id": "5c0791ef1a6a4c6bf4b314ce",
           "title": "Future",
@@ -1326,22 +1361,57 @@
         }
       },
       {
-        "title": "Create new component for rendering OData EDM in Data Model visualization ",
-        "body": "**Description**\r\n\r\n- Create a new component that can be used anywhere\r\n- Check if the best location is some official OData organization on GitHub, or better keep it in Console\r\n- Have good communication about the new component, examples and a blog\r\n- Follow https://github.com/SAP/fundamental\r\n\r\n**Reasons**\r\n\r\nBecause of the nature of OData, users prefer to not just see raw reference documentation but also a visual representation of the data model described by the EDMX files that describe OData",
-        "url": "https://github.com/kyma-project/console/issues/821",
-        "number": 821,
+        "title": "Support for metadata on a source level in HeadlessCMS custom resources",
+        "body": "**Description**\r\n\r\n- Make sure proper support for it is in DocsTopic and ClusterDocsTopic \r\n- Do we need explicit support in AssetStore? \r\n- Proper documentation/tutorial/example\r\n- Support in Kyma Console UI Backend\r\n- Support in the markdown rendering components in Kyma:\r\n  - Agree on contract, what keys can be provided in metadata\r\n  - Document them and support in UI\r\n\r\n**Reasons**\r\n\r\nUsers must be able to specify some additional, custom metadata for a specific source of content. Later, the presentation layer can read this metadata and react properly. For example, it could be:\r\n```\r\nsources:\r\n    - type: markdown\r\n      name: markdown-slack\r\n      mode: single\r\n      url: https://raw.githubusercontent.com/slackapi/slack-api-specs/master/README.md\r\n      metadata: \r\n        disableRelativeLinks: true\r\n        disableAbsoluteLinks: true\r\n        disableHTML: true\r\n```",
+        "url": "https://github.com/kyma-project/kyma/issues/3989",
+        "number": 3989,
         "labels": [
           "area/core-and-supporting",
           "enhancement"
         ],
-        "githubUrl": "https://github.com/kyma-project/console/issues/821",
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/3989",
         "repository": {
-          "name": "console",
-          "id": 139590577,
+          "name": "kyma",
+          "id": 139590616,
           "issues": []
         },
         "dueDate": "2019-07-05T10:00:00.000Z",
-        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/console/821",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/3989",
+        "release": {
+          "release_id": "5cb593dfe89c9c3b0c58d7c7",
+          "title": "1.3",
+          "description": "Release 1.3 - Jakarta",
+          "start_date": "2019-06-10T10:00:00.000Z",
+          "desired_end_date": "2019-07-05T10:00:00.000Z",
+          "created_at": "2019-04-16T08:35:43.047Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Core & Supporting",
+          "epicsLabels": [
+            "area/core-and-supporting"
+          ],
+          "id": "core-and-supporting"
+        }
+      },
+      {
+        "title": "Markdown documentation component for reuse in any UI",
+        "body": "**Description**\r\n\r\n- component with left nav and right nav -> displayable only if needed\r\n- the middle part should support all standard markdown functionalities and if possible the others should be supported through a kind of extensions\r\n- props for the component should support the user to provide multiple markdown files to be rendered on one view\r\n- should we do react like in case of all the other components?\r\n- can we make it a separate npm package, is it doable?\r\n\r\nTODO: Action point once we are done with the component -> work on designs on how context help `slider` would look like in console UI and how it would be configured. Probably microfrontend CR could be extended.\r\n\r\n**Reasons**\r\n\r\nCurrent Docs UI view in Console is great but easily replaceable by kyma-project.io that soon will have search. Big advantage of headless cms in kyma is that Kyma Consol has access to Kyma documentation all the time, and can access it in any context of the user. We should take advantage of this functionality and display documentation about Service Catalog in Service Catalog view in Console.",
+        "url": "https://github.com/kyma-project/kyma/issues/4025",
+        "number": 4025,
+        "labels": [
+          "area/core-and-supporting",
+          "enhancement"
+        ],
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/4025",
+        "repository": {
+          "name": "kyma",
+          "id": 139590616,
+          "issues": []
+        },
+        "dueDate": "2019-07-05T10:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/4025",
         "release": {
           "release_id": "5cb593dfe89c9c3b0c58d7c7",
           "title": "1.3",
@@ -1370,6 +1440,51 @@
     "Application Connectivity": [],
     "Console / Microfrontends": [],
     "Core & Supporting": [],
+    "Eventing": [],
+    "Logging / Tracing / Monitoring": [],
+    "Service Management": []
+  },
+  "1.4": {
+    "API Gateway": [],
+    "Application Connectivity": [],
+    "Console / Microfrontends": [],
+    "Core & Supporting": [
+      {
+        "title": "Create new component for rendering OData EDM in Data Model visualization ",
+        "body": "**Description**\r\n\r\n- Create a new component that can be used anywhere\r\n- Check if the best location is some official OData organization on GitHub, or better keep it in Console\r\n- Have good communication about the new component, examples and a blog\r\n- Follow https://github.com/SAP/fundamental\r\n\r\n**Reasons**\r\n\r\nBecause of the nature of OData, users prefer to not just see raw reference documentation but also a visual representation of the data model described by the EDMX files that describe OData",
+        "url": "https://github.com/kyma-project/console/issues/821",
+        "number": 821,
+        "labels": [
+          "area/core-and-supporting",
+          "enhancement"
+        ],
+        "githubUrl": "https://github.com/kyma-project/console/issues/821",
+        "repository": {
+          "name": "console",
+          "id": 139590577,
+          "issues": []
+        },
+        "dueDate": "2019-08-02T10:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/console/821",
+        "release": {
+          "release_id": "5cd88a49145f41296ed5194a",
+          "title": "1.4",
+          "description": "Release 1.4 - Kyoto",
+          "start_date": "2019-07-07T10:00:00.000Z",
+          "desired_end_date": "2019-08-02T10:00:00.000Z",
+          "created_at": "2019-05-12T21:04:09.833Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Core & Supporting",
+          "epicsLabels": [
+            "area/core-and-supporting"
+          ],
+          "id": "core-and-supporting"
+        }
+      }
+    ],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
     "Service Management": []
