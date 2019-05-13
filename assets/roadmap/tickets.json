@@ -1129,40 +1129,6 @@
           ],
           "id": "service-management"
         }
-      },
-      {
-        "title": "Provide AWS Service Broker bundle",
-        "body": "**Description**\r\n\r\nProvide AWS Service Broker installation at runtime.\r\n\r\n**Reasons**\r\n\r\nAllow Kyma users to integrate AWS Service Broker with Kyma in an easy way with well documented steps described in a documentation of the service class.\r\n\r\n**Acceptance Criteria**\r\n- Make a bundle for AWS Service Broker\r\n  - keep all naming conventions, like description etc synced with already existing Azure and GCP bundles\r\n  - check if bundle requires some input parameters (for example Azure Broker has such one)\r\n  - bundle itself implementation and doc\r\n- Create service class documentation for above bundle\r\n  - add documentation per every AWS class, use reference to AWS documentation\r\n- Make sure all input parameters are displayed correctly in Service Catalog UI\r\n- release bundles repository and use new version in Kyma\r\n- Keep bundle AWS image/chart version and docs with the same version\r\n\r\n\r\n\r\n**Attachments**\r\n- Documentation, see: https://github.com/awslabs/aws-servicebroker/tree/master/docs\r\n- Installation on Kubernetes, see: https://github.com/awslabs/aws-servicebroker/blob/master/docs/getting-started-k8s.md",
-        "url": "https://github.com/kyma-project/bundles/issues/57",
-        "number": 57,
-        "labels": [
-          "area/service-catalog"
-        ],
-        "githubUrl": "https://github.com/kyma-project/bundles/issues/57",
-        "repository": {
-          "name": "bundles",
-          "id": 151691065,
-          "issues": []
-        },
-        "dueDate": "2019-05-10T10:00:00.000Z",
-        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/bundles/57",
-        "release": {
-          "release_id": "5c86318b1aa06e798dcd6782",
-          "title": "1.1",
-          "description": "Release 1.1 - Helsinki",
-          "start_date": "2019-04-06T22:00:00.000Z",
-          "desired_end_date": "2019-05-10T10:00:00.000Z",
-          "created_at": "2019-03-11T09:59:39.887Z",
-          "closed_at": null,
-          "state": "open"
-        },
-        "capability": {
-          "displayName": "Service Management",
-          "epicsLabels": [
-            "area/service-catalog"
-          ],
-          "id": "service-management"
-        }
       }
     ]
   },
