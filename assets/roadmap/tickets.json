@@ -6,6 +6,7 @@
     "Core & Supporting": [],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
+    "Serverless Runtime": [],
     "Service Management": []
   },
   "Future": {
@@ -952,6 +953,189 @@
         }
       }
     ],
+    "Serverless Runtime": [
+      {
+        "title": "Improve Debug-ability of Functions",
+        "body": "As a Developer I like to know if my Functions are doing what they supposed to do, to get my work done.",
+        "url": "https://github.com/kyma-project/kyma/issues/1618",
+        "number": 1618,
+        "labels": [
+          "area/serverless"
+        ],
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/1618",
+        "repository": {
+          "name": "kyma",
+          "id": 139590616,
+          "issues": []
+        },
+        "dueDate": "2020-12-31T11:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/1618",
+        "release": {
+          "release_id": "5c0791ef1a6a4c6bf4b314ce",
+          "title": "Future",
+          "description": "Items selected for development but not scheduled yet.",
+          "start_date": "2020-01-01T11:00:00.000Z",
+          "desired_end_date": "2020-12-31T11:00:00.000Z",
+          "created_at": "2018-12-05T08:53:03.286Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Serverless Runtime",
+          "id": "serverless",
+          "epicsLabels": [
+            "area/serverless"
+          ]
+        }
+      },
+      {
+        "title": "Migrate Kubeless to knative",
+        "body": "This is an overarching epic to track all the activities of this move.\n\nThis epic is not meant to be part of a Milestone as the topic is to big for one iteration.,",
+        "url": "https://github.com/kyma-project/kyma/issues/1878",
+        "number": 1878,
+        "labels": [
+          "area/serverless",
+          "stale"
+        ],
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/1878",
+        "repository": {
+          "name": "kyma",
+          "id": 139590616,
+          "issues": []
+        },
+        "dueDate": "2020-12-31T11:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/1878",
+        "release": {
+          "release_id": "5c0791ef1a6a4c6bf4b314ce",
+          "title": "Future",
+          "description": "Items selected for development but not scheduled yet.",
+          "start_date": "2020-01-01T11:00:00.000Z",
+          "desired_end_date": "2020-12-31T11:00:00.000Z",
+          "created_at": "2018-12-05T08:53:03.286Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Serverless Runtime",
+          "id": "serverless",
+          "epicsLabels": [
+            "area/serverless"
+          ]
+        }
+      },
+      {
+        "title": "Knative Function Controler Deploymen Status",
+        "body": "**Description**\nAs a Function Developer I like to know the status of my deployment to check if a deployment was successful. \n\nAC:\n- Display the following status: DEPLOYING, UPDATING, RUNNING and ERROR\n- Give Additional details about the status in a Description field\n\n**Reasons**\nAS a developer I need feedback if my deployment is working like expected to fix it if it is not working.\n",
+        "url": "https://github.com/kyma-project/kyma/issues/2250",
+        "number": 2250,
+        "labels": [
+          "area/serverless",
+          "enhancement"
+        ],
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/2250",
+        "repository": {
+          "name": "kyma",
+          "id": 139590616,
+          "issues": []
+        },
+        "dueDate": "2020-12-31T11:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/2250",
+        "release": {
+          "release_id": "5c0791ef1a6a4c6bf4b314ce",
+          "title": "Future",
+          "description": "Items selected for development but not scheduled yet.",
+          "start_date": "2020-01-01T11:00:00.000Z",
+          "desired_end_date": "2020-12-31T11:00:00.000Z",
+          "created_at": "2018-12-05T08:53:03.286Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Serverless Runtime",
+          "id": "serverless",
+          "epicsLabels": [
+            "area/serverless"
+          ]
+        }
+      },
+      {
+        "title": "Monitor Knative Function Controller",
+        "body": "As a operator I like to know if my function controller is working like expected to react on issues.\n\nAC:\n- Monitoring for Functions\n  - Running Functions\n  - Deploying Functions\n  - Deployment errors",
+        "url": "https://github.com/kyma-project/kyma/issues/2251",
+        "number": 2251,
+        "labels": [
+          "area/monitoring",
+          "area/serverless",
+          "enhancement",
+          "quality/observability"
+        ],
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/2251",
+        "repository": {
+          "name": "kyma",
+          "id": 139590616,
+          "issues": []
+        },
+        "dueDate": "2020-12-31T11:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/2251",
+        "release": {
+          "release_id": "5c0791ef1a6a4c6bf4b314ce",
+          "title": "Future",
+          "description": "Items selected for development but not scheduled yet.",
+          "start_date": "2020-01-01T11:00:00.000Z",
+          "desired_end_date": "2020-12-31T11:00:00.000Z",
+          "created_at": "2018-12-05T08:53:03.286Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Serverless Runtime",
+          "id": "serverless",
+          "epicsLabels": [
+            "area/serverless"
+          ]
+        }
+      },
+      {
+        "title": "Provide essential data and e2e test to *-kyma-gke-upgrade plan ",
+        "body": "**Description**\r\n\r\nAs Kyma 0.8 should be upgradeable from 0.7 and still work we need to test at least our top Kyma scenario, namely enterprise application integration, sending evens and receiving API calls back.\r\n\r\n**Acceptance Criteria**\r\n- Provide a separate steps for:\r\n  - essential component and data installation\r\n  - e2e test\r\n- Implement e2e test scenario: \r\n  - _your component e2e scenario_\r\n- Upgrade plan steps:\r\n  * install 0.7.0 -> apply setup and execute test\r\n  * upgrade to 0.8.0\r\n  * execute test again\r\n- Provide a way to install essential components and data in kyma before upgrade\r\n- Provide a way to run test\r\n\r\n\r\n**Example e2e test scenario**\r\n  - ec-mock installed, \r\n  - kyma and mock paired, \r\n  - api, events registered,\r\n  - app to namespace mapping created,\r\n  - APIs and Events classes provisioned, \r\n  - lambda with code to call back EC Mock API created, trigger by event checked,\r\n  - service binding usage to lambda created, \r\n  - EC mock event sent,\r\n  - lambda triggered,\r\n  - lambda calls API\r\n  - success",
+        "url": "https://github.com/kyma-project/test-infra/issues/582",
+        "number": 582,
+        "labels": [
+          "area/application-connector",
+          "area/ci",
+          "area/cluster",
+          "area/eventing",
+          "area/serverless",
+          "area/service-catalog",
+          "enhancement"
+        ],
+        "githubUrl": "https://github.com/kyma-project/test-infra/issues/582",
+        "repository": {
+          "name": "test-infra",
+          "id": 147495537,
+          "issues": []
+        },
+        "dueDate": "2020-12-31T11:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/test-infra/582",
+        "release": {
+          "release_id": "5c0791ef1a6a4c6bf4b314ce",
+          "title": "Future",
+          "description": "Items selected for development but not scheduled yet.",
+          "start_date": "2020-01-01T11:00:00.000Z",
+          "desired_end_date": "2020-12-31T11:00:00.000Z",
+          "created_at": "2018-12-05T08:53:03.286Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Serverless Runtime",
+          "id": "serverless",
+          "epicsLabels": [
+            "area/serverless"
+          ]
+        }
+      }
+    ],
     "Service Management": [
       {
         "title": "Provide essential data and e2e test to *-kyma-gke-upgrade plan ",
@@ -1002,6 +1186,7 @@
     "Core & Supporting": [],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
+    "Serverless Runtime": [],
     "Service Management": []
   },
   "2019-Q3": {
@@ -1011,6 +1196,42 @@
     "Core & Supporting": [],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
+    "Serverless Runtime": [
+      {
+        "title": "Knative Functions Controller",
+        "body": "As a developer I like to have an easy way to create kantive based functions to not deal with the complex components in knative.\r\n\r\nAC:\r\n- CRUD for Nodesjs Functions (nodejs file and package.json)\r\n- Test coverage 80%\r\n- Not Integration in kyma needed\r\n- No Pipeline",
+        "url": "https://github.com/kyma-project/kyma/issues/2192",
+        "number": 2192,
+        "labels": [
+          "area/serverless"
+        ],
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/2192",
+        "repository": {
+          "name": "kyma",
+          "id": 139590616,
+          "issues": []
+        },
+        "dueDate": "2019-09-29T22:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/2192",
+        "release": {
+          "release_id": "5c5aaf7cdcf5235c1876a507",
+          "title": "2019-Q3",
+          "description": "",
+          "start_date": "2019-06-30T22:00:00.000Z",
+          "desired_end_date": "2019-09-29T22:00:00.000Z",
+          "created_at": "2019-02-06T09:57:16.653Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Serverless Runtime",
+          "id": "serverless",
+          "epicsLabels": [
+            "area/serverless"
+          ]
+        }
+      }
+    ],
     "Service Management": []
   },
   "1.1": {
@@ -1094,6 +1315,7 @@
     "Core & Supporting": [],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
+    "Serverless Runtime": [],
     "Service Management": [
       {
         "title": "Finalize PR with Service Catalog CRD solution",
@@ -1284,6 +1506,79 @@
     ],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
+    "Serverless Runtime": [
+      {
+        "title": "Test view for lambdas",
+        "body": "**Description**\r\nTest lambda view should contain:\r\n- choice how to invoke lambda (http request / event)\r\n- event selector - you  can pick what event you want to test\r\n- the input data editor with templates updated when you switch the trigger (request/event/event type)\r\n- log live preview\r\n- test button (invoke lambda with input data)\r\n\r\nTest view should check if lambda is exposed (mandatory). Test button should call lambda through API gateway (exposed), pass the input data and display response.\r\n\r\n\r\n**Reasons**\r\nDevelopers want to test their lambdas easily.\r\n\r\n**Attachments**\r\nYou can simulate event triggers sending event content as http request body. This is the way how event trigger works:\r\n- event payload is received pushed to kubeless as a request body: https://github.com/kyma-project/kyma/blob/22675d2a177e945e23ae384f6017e3096edbdb74/components/event-bus/internal/push/handlers/message_handler.go#L53\r\n- kubeless extracts body and sends it to lambda function as event.data:\r\nhttps://github.com/kubeless/runtimes/blob/bdee7792a6d265a719a75e886071cbc4fb5f7295/stable/nodejs/kubeless.js#L66\r\n\r\nTo test it please you can create a lambda with 2 triggers (http and event) with following code:\r\n```\r\nmodule.exports = { main: function (event, context) {\r\n    console.log(JSON.stringify(event.data));\r\n} }\r\n```\r\nYou can invoke lambda with the event (use application mock) or call it with http request:\r\n```\r\ncurl https://your-lambda-url -d '{\"prop\":\"value\"}'\r\n```\r\nBoth triggers will set event.data object.\r\n\r\n",
+        "url": "https://github.com/kyma-project/console/issues/780",
+        "number": 780,
+        "labels": [
+          "area/console",
+          "area/serverless",
+          "enhancement",
+          "quality/devx"
+        ],
+        "githubUrl": "https://github.com/kyma-project/console/issues/780",
+        "repository": {
+          "name": "console",
+          "id": 139590577,
+          "issues": []
+        },
+        "dueDate": "2019-06-07T10:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/console/780",
+        "release": {
+          "release_id": "5cb59383709ee87123145468",
+          "title": "1.2",
+          "description": "Release 1.2 - Istanbul",
+          "start_date": "2019-05-13T10:00:00.000Z",
+          "desired_end_date": "2019-06-07T10:00:00.000Z",
+          "created_at": "2019-04-16T08:34:11.381Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Serverless Runtime",
+          "id": "serverless",
+          "epicsLabels": [
+            "area/serverless"
+          ]
+        }
+      },
+      {
+        "title": "Update controller implementation to latest knative standards",
+        "body": "**Description**\nService should not implement a BuildSpec anymore. As the current implementation heavily relies on that functionality parts of the controller need to be reimplemented\n\n**Acceptance:**\n* factor Buildspec out of servicespec\n* create new buildspec and service in controller\n\n ",
+        "url": "https://github.com/kyma-project/kyma/issues/3993",
+        "number": 3993,
+        "labels": [
+          "area/serverless"
+        ],
+        "githubUrl": "https://github.com/kyma-project/kyma/issues/3993",
+        "repository": {
+          "name": "kyma",
+          "id": 139590616,
+          "issues": []
+        },
+        "dueDate": "2019-06-07T10:00:00.000Z",
+        "zenHubUrl": "https://app.zenhub.com/workspaces/kyma---all-repositories-5b6d5985084045741e744dea/issues/kyma-project/kyma/3993",
+        "release": {
+          "release_id": "5cb59383709ee87123145468",
+          "title": "1.2",
+          "description": "Release 1.2 - Istanbul",
+          "start_date": "2019-05-13T10:00:00.000Z",
+          "desired_end_date": "2019-06-07T10:00:00.000Z",
+          "created_at": "2019-04-16T08:34:11.381Z",
+          "closed_at": null,
+          "state": "open"
+        },
+        "capability": {
+          "displayName": "Serverless Runtime",
+          "id": "serverless",
+          "epicsLabels": [
+            "area/serverless"
+          ]
+        }
+      }
+    ],
     "Service Management": []
   },
   "1.3": {
@@ -1399,6 +1694,7 @@
     ],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
+    "Serverless Runtime": [],
     "Service Management": []
   },
   "1.0": {
@@ -1408,6 +1704,7 @@
     "Core & Supporting": [],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
+    "Serverless Runtime": [],
     "Service Management": []
   },
   "1.4": {
@@ -1453,6 +1750,7 @@
     ],
     "Eventing": [],
     "Logging / Tracing / Monitoring": [],
+    "Serverless Runtime": [],
     "Service Management": []
   }
 }
